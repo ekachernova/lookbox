@@ -1,0 +1,246 @@
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    position: relative;
+}
+
+#logo a {
+    color: black;
+    opacity: 100%;
+}
+
+/* hamburger menu */
+
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  #menu-container #menu {
+    display: none;
+  }
+  
+
+  /* Style the hamburger menu */
+  #menu-container a.icon {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  
+
+#menu-container {
+    display: flex;
+    width: auto;
+    height: inherit;
+    justify-content: right;
+}
+
+#menu {
+    display: flex;
+    list-style-type:none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu li {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 65%;
+}
+
+#welcome_image {
+    width: auto;
+}
+
+h1,h2,h3 {
+    opacity: 65%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#welcome_button {
+    width: 350px;
+    height: 70px;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 6px;
+    background-color: magenta;
+    color: ghostwhite;
+    box-shadow: 20px;
+    margin-left: 0;
+}
+
+#welcome_button:hover {
+    background-color: orange;
+    color: white;
+}
+
+footer {
+    display: flex;
+    height: auto;
+}
+
+#copyrights {
+    display: flex;
+    justify-content: left;
+}
+
+#social_media {
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+}
+
+#icons-container {
+    display: flex;
+    text-align: right;
+}
+
+#icons-container i {
+    padding: 8px;
+}
+/*start_page_css*/
+
+#buttons-container {
+    display: flex;
+    width: 100%;
+    justify-items: stretch;
+}
+
+.custom-file-upload {
+
+    border: 3px rgb(13, 3, 3);
+    border-radius: 5%;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: beige;
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+    height: 70px;
+    color: black 65%;
+}
+
+.custom-file-upload:hover {
+    background-color: grey;
+    color: whitesmoke;
+  }
+
+#image-input {
+  display: none;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: crimson;
+    color: whitesmoke;
+    margin-left: 150px;
+}
+
+button:hover {
+    background-color: orange;
+    color: white;
+  }
+
+#action-content {
+    display: flex; 
+    justify-content: space-around;
+}
+
+#gallery {
+    width: 400px;
+    height: 650px;
+    margin-top: 40px;
+    box-shadow: 2px;
+  }
+
+#collage-container {
+
+    width: 400px;
+    height: 480px;
+    text-align: center;
+}
+
+#place-to-drop {
+    width: 200px;
+    height: 240px;
+    /* border:2px solid; */
+    /* border-color:grey; */
+    text-align: center;
+    font-size: 16px;
+}
+
+#collage-container {
+    display: flex;
+    justify-content: center;
+}
+
+#collage {
+    width: 400px;
+    height: 440px;
+    border-radius: 10%;
+}
+
+#row {
+    display: flex;
+}
+
+/* #collage-button-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+    justify-content: left;
+}
+
+#collage-button-container button {
+
+    width: 100px;
+    height: 80px;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    color: black;
+  
+}
+ */

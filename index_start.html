@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_demo_dec22</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4e4b63f4ba.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <header id="main_header">
+       
+       <div id="logo">
+            
+            <h1><a href="index.html">LOOKBOX.</a></h1>
+       </div>
+
+
+       <div id="menu-container">
+        <ul id="menu">
+            <div id="menu-item">
+                <a href="#">
+                    <li>About</li>
+                </a>
+            </div>
+            <div id="menu-item">
+                <a href="#">
+                    <li>Blog</li>
+                </a>
+            </div>
+            <div id="menu-item">
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </div>
+
+        </ul>
+<!-- add humburger menu -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+        </header>
+
+
+    <div id="start-content">
+
+        <div id="buttons-container">
+
+            <label for="image-input" class="custom-file-upload">
+                <input type="file" id="image-input">
+                Add an item to your gallery
+            </label>
+
+            <div id="clear-button-container">
+            <button onclick="clearGallery()">Clear your gallery</button>
+            </div>
+
+        </div>
+
+        <div id="action-content">
+
+            <div id="gallery-container">
+
+                <div>
+                    <p>HERE APPEARS YOU GALLERY</p>
+                </div>
+                <div id="gallery">
+                </div> 
+            
+            </div>
+
+            <div id="collage-container">
+
+                <div id="collage">
+
+                    <p>CREATE YOUR LOOK HERE!</p>
+
+                    <div id="row">
+                        <div id="place-to-drop" class="top" ondragover="allowDrop(event)" ondrop="dropImage(event)">
+                        top
+                        </div>
+
+
+                        <div id="place-to-drop" class="bag" ondragover="allowDrop(event)" ondrop="dropImage(event)">
+                        
+                        bag
+                        </div>
+                    </div>
+            
+                    <div id="row">
+                        <div id="place-to-drop" class="bottom" ondragover="allowDrop(event)" ondrop="dropImage(event)">
+                        bottom
+
+                        </div>
+
+                        <div id="place-to-drop" class="shoes" ondragover="allowDrop(event)" ondrop="dropImage(event)">
+                        shoes
+
+                        </div>
+
+                    </div>
+
+
+              
+
+
+                </div>
+            </div>
+        </div>
+ 
+        </div>
+    </div>
+    
+    <!--React test-->
+    <div id="like_button_container"></div>
+    
+    <script src="myscripts.js"></script>
+
+
+    <!--React test-->
+
+     <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+
+</body>
+</html>

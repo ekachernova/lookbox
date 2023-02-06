@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../archive"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS_demo_dec22"
+	}
+}
